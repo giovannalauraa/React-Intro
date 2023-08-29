@@ -3,7 +3,7 @@
 import './App.css'
 // import Planetas from './componentes/Planetas' 
 // import Galeria from './componentes/Planetas.jsx'
-import Galeria, { Terra, Justi, Manoel, Adms } from './componentes/Planetas.jsx' // como vou importar 2 itens coloco os outros em evidência dentro das: { }
+import Galeria, { Terra, Justi, Manoel, TodoList, TodoListDois } from './componentes/Planetas.jsx' // como vou importar 2 itens coloco os outros em evidência dentro das: { }
 
 function App() {
  
@@ -12,11 +12,13 @@ function App() {
     <section>
       <h1>Planetas incríveis</h1>
       <Galeria /> 
+      <TodoList />
     </section>
 
     <section>
       <h1>Planeta Terra</h1>
       <Terra />
+      <TodoListDois />
     </section>
 
     <section>
@@ -25,9 +27,9 @@ function App() {
     </section>
 
     <section>
-      <h1>Mano gomes e adm</h1>
+      <h1>Mano gomes e justi</h1>
       <Manoel />
-      <Adms />
+      <Justi />
     </section>
     </>
   )
